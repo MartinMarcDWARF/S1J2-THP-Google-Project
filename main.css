@@ -1,0 +1,206 @@
+.Gmail
+{
+    font-size: 14px;
+}
+.Image
+{
+    font-size: 14px;
+}
+.page-header
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: white;
+    box-sizing: border-box;
+}
+.page-header a
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 15px;
+}
+.Appli
+{
+    cursor: pointer;
+}
+.Compte
+{
+    cursor: pointer;
+}
+main
+{
+    background-color: white;
+}
+.logo
+{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+}
+p
+{
+    font-size: small;
+}
+.search
+{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+}
+#site-search
+{
+    width: 39%;
+    
+}
+#site-search:hover
+{
+    box-shadow:1px 1px 1px  black
+}
+#site-search:active
+{
+    border: none;
+    outline-style: none;
+    outline-color: transparent;
+    outline-width: 0%;
+    border-color: transparent;
+}
+input
+{
+    /*border-radius: 20px;*/
+    border-radius: 25px;
+    border-color: rgba(grey,0,0,5);
+    border-width: 1px;
+    height: 45px;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    padding: 0 1rem;
+}
+
+button
+{
+    cursor: pointer;
+    border: none;
+    background-color: rgba(255,255,255,0);
+}
+button:hover
+{
+    border: grey;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+    /*box-shadow:1px 1px 1px  grey;*/
+    border: 1px solid rgba(grey,0,0,5);
+}
+body
+{
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+footer
+{
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    
+    
+}
+.fr
+{
+    position: absolute;
+    bottom: 40px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.bas
+{
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    align-content: space-around;
+    height: 40px;
+    border-top: 10px;
+    border-color: #70757a;
+    border-width: 1px;
+    border-style: solid;
+    
+}
+.bg
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+    height: 50px;
+}
+.bg a
+{
+    margin: 0 10px;
+}
+.bm
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    height: 50px;
+}
+.bd
+{
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    height: 40px;
+    box-sizing: border-box;
+}
+.bd a
+{
+    margin: 0 10px;
+}
+.para
+{
+    color: #70757a;
+    text-decoration: #70757a;
+    margin-right: 25px;
+}
+.para:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+a
+{
+    text-decoration: none;
+    color: #70757a;
+}
+a:hover
+{
+    text-decoration: underline;
+}
